@@ -28,8 +28,7 @@ body {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  justify-content: space-between;
-  padding: 0;
+  justify-content: flex-start;
   user-select: none;
   overflow: hidden;
   align-items: center;
@@ -52,7 +51,10 @@ body {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  flex-grow: 1;
   justify-content: flex-end;
+  padding-left: 0;
+  align-items: center;
 }
 @media (max-width: 768px) {
   .navbar .nav-bar {
@@ -226,7 +228,7 @@ body {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 .blog .item .infos .time {
   margin-right: 3em;
