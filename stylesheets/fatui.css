@@ -24,6 +24,11 @@ body {
   line-height: 1.8;
   background-color: transparent;
 }
+pre,
+code {
+  font-family: 'Source Code Pro', consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', monospace;
+  font-size: 16px;
+}
 .navbar {
   box-sizing: border-box;
   display: -webkit-flex;
@@ -388,6 +393,12 @@ body {
   color: #09F;
   transition: all 0.4s;
   text-decoration: none;
+}
+figure.highlight {
+  width: 100%;
+}
+figure.highlight table {
+  width: 100%;
 }
 .comments {
   width: 100%;

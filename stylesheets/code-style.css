@@ -1,0 +1,148 @@
+/*
+
+Atom One Dark With support for ReasonML by Gidi Morris, based off work by Daniel Gamage
+
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+*/
+.highlight {
+  display: block;
+  padding: 0;
+  color: #ABB2BF;
+  line-height: 1.8;
+  border-radius: 6px;
+  background: #282C34;
+  overflow-x: auto;
+}
+.highlight figcaption {
+  position: relative;
+  margin-bottom: 5px;
+  padding-left: 90px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+.highlight figcaption ::-webkit-scrollbar {
+  height: 10px;
+}
+.highlight figcaption ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.highlight figcaption ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.highlight figcaption::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 3;
+  width: 12px;
+  height: 12px;
+  margin-top: 13px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #FC625D;
+  -webkit-box-shadow: 20px 0 #FDBC40, 40px 0 #35CD4B;
+  box-shadow: 20px 0 #FDBC40, 40px 0 #35CD4B;
+}
+.highlight figcaption span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFF;
+  line-height: 38px;
+}
+.highlight pre {
+  padding-bottom: 0;
+  color: #999;
+  border-color: transparent;
+  background-color: transparent;
+}
+.highlight .keyword,
+.highlight .operator {
+  color: #F92672;
+}
+.highlight .pattern-match {
+  color: #F92672;
+}
+.highlight .pattern-match .constructor {
+  color: #61AEEE;
+}
+.highlight .function {
+  color: #61AEEE;
+}
+.highlight .function .params {
+  color: #A6E22E;
+}
+.highlight .function .params .typing {
+  color: #FD971F;
+}
+.highlight .module-access .module {
+  color: #7E57C2;
+}
+.highlight .constructor {
+  color: #E2B93D;
+}
+.highlight .constructor .string {
+  color: #9CCC65;
+}
+.highlight .comment,
+.highlight .quote {
+  font-style: italic;
+  color: #B18EB1;
+}
+.highlight .doctag,
+.highlight .formula {
+  color: #C678DD;
+}
+.highlight .section,
+.highlight .name,
+.highlight .selector-tag,
+.highlight .deletion,
+.highlight .subst {
+  color: #E06C75;
+}
+.highlight .literal {
+  color: #56B6C2;
+}
+.highlight .string,
+.highlight .regexp,
+.highlight .addition,
+.highlight .attribute,
+.highlight .meta-string {
+  color: #98C379;
+}
+.highlight .built_in,
+.highlight .class .title {
+  color: #E6C07B;
+}
+.highlight .attr,
+.highlight .variable,
+.highlight .template-variable,
+.highlight .type,
+.highlight .selector-class,
+.highlight .selector-attr,
+.highlight .selector-pseudo,
+.highlight .number {
+  color: #D19A66;
+}
+.highlight .symbol,
+.highlight .bullet,
+.highlight .link,
+.highlight .meta,
+.highlight .selector-id,
+.highlight .title {
+  color: #61AEEE;
+}
+.highlight .emphasis {
+  font-style: italic;
+}
+.highlight .strong {
+  font-weight: bold;
+}
+.highlight .link {
+  text-decoration: underline;
+}
