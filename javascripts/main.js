@@ -1,6 +1,28 @@
 // 页面初始化
 $(function() {
-    console.log('this is a alert');
+    // 监听文档可视情况发生变话
+    $(document)
+        // https://developer.mozilla.org/zh-CN/docs/Web/API/Document/visibilityState
+        .on('visibilitychange', function() {
+            let static = document.visibilityState,
+                title = '';
+
+            switch (static) {
+                case 'hidden':
+                    $(document).data('title', document.title);
+                    title = 'o(*￣▽￣*)o 正经人在这等你回来'
+                    break;
+                case 'visible':
+                    title = $(document).data('title');
+                    break;
+                default:
+
+            }
+
+            $(document).attr('title', title)
+            console.log('监听页面是否呗切换', title, document.visibilityState)
+
+        })
 
     // 移动端导航样式
     $('#nav-bar-mb')
