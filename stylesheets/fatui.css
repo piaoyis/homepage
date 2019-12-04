@@ -378,7 +378,7 @@ body {
 }
 .comments {
   width: 100%;
-  margin: 30px auto;
+  margin: 50px auto 0;
 }
 .comments .title {
   color: #666;
