@@ -376,6 +376,13 @@ body {
   transition: all 0.4s;
   text-decoration: none;
 }
+.comments {
+  width: 100%;
+  margin: 30px auto;
+}
+.comments .title {
+  color: #666;
+}
 .footer {
   position: absolute;
   right: 0;
