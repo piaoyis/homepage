@@ -317,6 +317,7 @@ body {
 }
 .page blockquote {
   margin-bottom: 30px;
+  background-color: #FFF;
 }
 .page blockquote footer {
   display: -webkit-flex;
