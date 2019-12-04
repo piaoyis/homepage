@@ -19,7 +19,7 @@ html.boot {
 }
 body {
   font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #333;
   background-color: transparent;
 }
@@ -182,6 +182,7 @@ body {
   padding: 30px;
   background-color: #FFF;
   box-shadow: 0 4px 30px 0 rgba(223, 225, 230, 0.5);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 768px) {
   .main {
@@ -302,7 +303,8 @@ body {
   color: #09F;
 }
 .post .content {
-  font-size: 14px;
+  padding-top: 30px;
+  font-size: 16px;
   color: #333;
 }
 .post .nav {
