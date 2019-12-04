@@ -21,6 +21,7 @@ body {
   font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
   font-size: 1.6rem;
   color: #333;
+  line-height: 1.8;
   background-color: transparent;
 }
 .navbar {
@@ -251,6 +252,7 @@ body {
   display: -ms-flex;
   display: flex;
   flex-flow: row wrap;
+  font-size: 1.4rem;
 }
 .blog .item .infos .time {
   margin-right: 3em;
@@ -267,6 +269,7 @@ body {
 .blog .item .infos .tags a {
   display: inline-block;
   margin-right: 1em;
+  font-size: 1.4rem;
   color: #888;
 }
 .blog .item .infos .tags a:last-child {
@@ -286,6 +289,7 @@ body {
 }
 .post .infos {
   margin-bottom: 10px;
+  font-size: 1.4rem;
   color: #666;
   text-align: center;
 }
@@ -297,6 +301,7 @@ body {
   color: #999;
 }
 .post .infos span.tags a {
+  font-size: 1.4rem;
   color: #999;
 }
 .post .infos span.tags a:hover {
@@ -316,6 +321,12 @@ body {
   border: 1px solid #EDEDED;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.5);
+}
+.post .comments {
+  width: 100%;
+}
+.post .comments .title {
+  display: inline-block;
 }
 .page blockquote {
   margin-bottom: 30px;
