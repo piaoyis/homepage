@@ -318,8 +318,14 @@ body {
   flex-flow: row wrap;
   justify-content: flex-start;
   margin-top: 30px;
+  padding: 0;
   list-style: none;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .page ul {
+    min-width: 100%;
+  }
 }
 .page ul li {
   box-sizing: border-box;
@@ -327,6 +333,11 @@ body {
   min-height: 30px;
   margin: 0;
   padding: 1rem 1rem 1rem 0;
+}
+@media (max-width: 768px) {
+  .page ul li {
+    min-width: 100%;
+  }
 }
 .page ul li a {
   display: block;
