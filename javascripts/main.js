@@ -18,10 +18,9 @@ $(function() {
                 default:
 
             }
-
-            $(document).attr('title', title)
-            console.log('监听页面是否呗切换', title, document.visibilityState)
-
+            // 修改页面标题
+            $(document).attr('title', title);
+            // console.log('监听页面是否呗切换', title, document.visibilityState);
         })
 
     // 移动端导航样式
