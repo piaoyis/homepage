@@ -394,6 +394,31 @@ code {
   transition: all 0.4s;
   text-decoration: none;
 }
+.tags-cloud {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: flex-start;
+}
+.tags-cloud .title {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EDEDED;
+}
+.tags-cloud .title .h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tags-cloud .tag {
+  color: #666;
+}
+.tags-cloud .tag:hover {
+  text-decoration: none;
+}
 figure.highlight {
   width: 100%;
 }
