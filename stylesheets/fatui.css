@@ -236,9 +236,11 @@ code {
   z-index: 9;
 }
 .blog .item .content:hover .title {
+  color: #09F;
   transition: all 1s;
 }
 .blog .item .content:hover .desc {
+  color: #333;
   transition: all 1s;
 }
 .blog .item .content .title {
