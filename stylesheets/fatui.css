@@ -446,3 +446,6 @@ figure.highlight table {
   line-height: 50px;
   text-align: center;
 }
+.footer .copyright p a {
+  color: #DDD;
+}
