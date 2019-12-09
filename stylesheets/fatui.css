@@ -309,6 +309,8 @@ code {
   color: #999;
 }
 .post .infos span.tags a {
+  display: inline-block;
+  margin-right: 0.8em;
   font-size: 1.4rem;
   color: #999;
 }
