@@ -311,9 +311,24 @@ code {
   font-size: 1.4rem;
   color: #999;
 }
+.post .excerpt {
+  margin-bottom: 10px;
+}
+.post .excerpt blockquote {
+  margin-bottom: 0;
+  font-size: 14px;
+  background-color: rgba(238, 238, 238, 0.5);
+}
+.post .excerpt blockquote p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
 .post .content {
-  padding-top: 30px;
+  padding-top: 10px;
   font-size: 16px;
+}
+.post .content p {
+  text-indent: 2em;
 }
 .post .nav {
   position: absolute;
