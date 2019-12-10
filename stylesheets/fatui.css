@@ -320,7 +320,8 @@ code {
 .post .excerpt blockquote {
   margin-bottom: 0;
   font-size: 14px;
-  background-color: rgba(238, 238, 238, 0.5);
+  border-left-color: #DADFE6;
+  background-color: #F5F7FA;
 }
 .post .excerpt blockquote p {
   margin-bottom: 0;
