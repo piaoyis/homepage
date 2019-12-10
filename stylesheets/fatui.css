@@ -319,6 +319,7 @@ code {
 }
 .post .excerpt blockquote {
   margin-bottom: 0;
+  padding: 15px 20px;
   font-size: 14px;
   border-left-color: #DADFE6;
   background-color: #F5F7FA;
@@ -352,7 +353,8 @@ code {
 }
 .page blockquote {
   margin-bottom: 30px;
-  background-color: #FFF;
+  border-left-color: #DADFE6;
+  background-color: #F5F7FA;
 }
 .page blockquote footer {
   display: -webkit-flex;
