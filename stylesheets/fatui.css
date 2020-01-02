@@ -23,6 +23,9 @@ html {
 html.boot {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAAGE1n4vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJUExURf///9jY2AAAANpZkvEAAAADdFJOU///ANfKDUEAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAYSURBVBhXY8AFGKEQmQXlwigQQBFhYAAAAlMAEU+CHU8AAAAASUVORK5CYII=");
 }
+html.boot body {
+  background-color: transparent;
+}
 body {
   font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
   font-size: 1.6rem;
